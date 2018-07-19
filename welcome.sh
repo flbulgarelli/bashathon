@@ -58,7 +58,7 @@ echo "
 
 ¡Hora de usar la web!
 
-INSTRUCCIÓN: Descargá la licencia GPLv3 de https://www.gnu.org/licenses/gpl-3.0.txtt
+INSTRUCCIÓN: Descargá la licencia GPLv3 de https://www.gnu.org/licenses/gpl-3.0.txt
 Contá cuantas veces aparece la palabra freedom. Con ese número, andá al paso correspondiente y seguí las instrucciones.
 
 " >> paso_10/instrucciones.txt
