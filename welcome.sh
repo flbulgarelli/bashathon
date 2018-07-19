@@ -35,8 +35,9 @@ Ups, acá no hay nada útil :(" > paso_4/instrucciones.txt
 ## Paso 5
 mkdir paso_5
 echo "¡Hagamos las cosas más interesantes!
+INSTRUCCIÓN: Ahora andá al directorio paso_10 y seguí las instrucciones
 
-INSTRUCCIÓN: Ahora andá al directorio paso_10 y seguí las instrucciones" >> paso_5/instrucciones.txt
+" >> paso_5/instrucciones.txt
 for i in $(seq 1 1000);  do
   ifconfig >> paso_5/instrucciones.txt
 done
