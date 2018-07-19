@@ -15,7 +15,9 @@ INSTRUCCIÓN: Ahora andá al directorio paso_5 y seguí las instrucciones.
 
 ## Paso 5
 mkdir paso_5
-echo "¡Hagamos las cosas más interesantes!\n\nINSTRUCCIÓN: Ahora andá al directorio paso_10 y seguí las instrucciones" >> paso_5/instrucciones.txt
+echo "¡Hagamos las cosas más interesantes!
+
+INSTRUCCIÓN: Ahora andá al directorio paso_10 y seguí las instrucciones" >> paso_5/instrucciones.txt
 for i in $(seq 1 1000);  do
   ifconfig >> paso_5/instrucciones.txt
 done
@@ -27,7 +29,7 @@ echo "
 
 ¡Hora de usar la web!
 
-INSTRUCCIÓN: Descargá la licencia GPLv3 de https://www.gnu.org/licenses/gpl-3.0.txt.
+INSTRUCCIÓN: Descargá la licencia GPLv3 de https://www.gnu.org/licenses/gpl-3.0.txtt
 Contá cuantas veces aparece la palabra freedom. Con ese número, andá al paso correspondiente y seguí las instrucciones.
 
 " >> paso_10/instrucciones.txt
@@ -66,8 +68,8 @@ echo "
 
 ¡Ya falta poco!
 
-INSTRUCCIÓN: buscá entre todos los directorios un archivo que inice con mu y tenga extensión .dat.
-Mové o copiá el archivo al directorio paso_42, andá a ese directorio y seguí las instrucciones.
+INSTRUCCIÓN: buscá entre todos los directorios los archivos que inice con mu y tengan extensión .dat.
+Mové o copiá los archivos al directorio paso_42, andá a ese directorio y seguí las instrucciones.
 
 " >> paso_60/instrucciones.txt
 
